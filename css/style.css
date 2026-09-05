@@ -1414,36 +1414,46 @@ body {
   margin-bottom: 26px;
 }
 
-.splash-creator {
+.splash-creator-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-subtle);
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
-  box-shadow: var(--shadow-sm);
+  gap: 8px;
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.12), rgba(16, 185, 129, 0.1));
+  border: 1.5px solid rgba(217, 119, 6, 0.4);
+  padding: 8px 18px;
+  border-radius: 24px;
+  box-shadow: 0 4px 18px rgba(217, 119, 6, 0.15);
+  backdrop-filter: blur(8px);
+  animation: badgePulse 3s ease-in-out infinite alternate;
 }
 
-.splash-by {
-  color: var(--text-muted);
-  font-weight: 400;
+.splash-sparkle {
+  color: var(--accent-gold);
+  font-size: 11px;
+  animation: sparkleRotate 4s linear infinite;
 }
 
-.splash-project {
+.splash-project-name {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
   color: var(--accent-gold-dark);
-  font-weight: 700;
-  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+[data-theme="dark"] .splash-project-name {
+  color: #fbbf24;
 }
 
 .splash-loader {
-  width: 130px;
-  height: 3.5px;
+  width: 160px;
+  height: 4px;
   background: var(--border-subtle);
   border-radius: 4px;
   overflow: hidden;
   position: relative;
+  margin-top: 4px;
 }
 
 .splash-bar {
@@ -1452,7 +1462,71 @@ body {
   background: linear-gradient(90deg, var(--accent-gold), var(--accent-green));
   border-radius: 4px;
   position: absolute;
-  animation: loaderSlide 1.4s ease-in-out infinite;
+  animation: loaderSlide 1.5s ease-in-out infinite;
+}
+
+.splash-footer {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+  animation: splashFadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.splash-author {
+  font-weight: 700;
+  color: var(--text-primary);
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* App Reader Footer */
+.app-reader-footer {
+  margin: 36px 0 20px 0;
+  padding: 24px 16px;
+  text-align: center;
+  border-top: 1px dashed var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-decor {
+  font-size: 10px;
+  color: var(--accent-gold);
+  letter-spacing: 6px;
+}
+
+.footer-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.footer-author {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.footer-author strong {
+  color: var(--accent-gold-dark);
+}
+
+@keyframes badgePulse {
+  0% { transform: scale(0.98); box-shadow: 0 4px 14px rgba(217, 119, 6, 0.12); }
+  100% { transform: scale(1.02); box-shadow: 0 6px 20px rgba(217, 119, 6, 0.25); }
+}
+
+@keyframes sparkleRotate {
+  0% { transform: rotate(0deg) scale(0.9); }
+  50% { transform: rotate(180deg) scale(1.15); }
+  100% { transform: rotate(360deg) scale(0.9); }
 }
 
 @keyframes splashFadeUp {

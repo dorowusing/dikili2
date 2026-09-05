@@ -128,8 +128,8 @@
       splash.classList.add('fade-out');
       setTimeout(() => {
         splash.style.display = 'none';
-      }, 650);
-    }, 1200);
+      }, 700);
+    }, 3200); // 3.2s duration to clearly read Panita Project & by @richieoct
   }
 
   function onDataLoaded() {
