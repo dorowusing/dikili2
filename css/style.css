@@ -797,6 +797,101 @@ body {
   text-overflow: ellipsis;
 }
 
+/* Special Doa Khatam Item in Drawer */
+.sair-sheet-item.special-doa-item {
+  margin-top: 10px;
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.08), rgba(147, 51, 234, 0.08));
+  border: 1.5px dashed var(--accent-gold);
+}
+
+.sair-sheet-item.special-doa-item:hover, .sair-sheet-item.special-doa-item:active {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.16), rgba(147, 51, 234, 0.16));
+  border-color: #9333ea;
+}
+
+.special-doa-item .sair-sheet-num {
+  background: linear-gradient(135deg, #d97706, #9333ea);
+  color: #fff;
+  border: none;
+  font-size: 13px;
+}
+
+.special-doa-badge-pill {
+  font-size: 11px;
+  font-weight: 700;
+  color: #9333ea;
+  background: rgba(147, 51, 234, 0.12);
+  padding: 3px 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(147, 51, 234, 0.25);
+  white-space: nowrap;
+}
+
+/* Doa Jump Banner inside Sair Hero Card */
+.doa-jump-banner {
+  margin-top: 14px;
+  padding: 11px 14px;
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.09), rgba(147, 51, 234, 0.09));
+  border: 1px solid rgba(147, 51, 234, 0.35);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.doa-jump-banner:hover {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.15), rgba(147, 51, 234, 0.15));
+  border-color: #9333ea;
+  transform: translateY(-1px);
+}
+
+.doa-jump-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.doa-jump-badge {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #7e22ce;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+[data-theme="dark"] .doa-jump-badge {
+  color: #c084fc;
+}
+
+.doa-jump-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.btn-jump-action {
+  background: linear-gradient(135deg, #d97706, #9333ea);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(147, 51, 234, 0.3);
+  transition: all 0.15s ease;
+}
+
+.btn-jump-action:hover {
+  filter: brightness(1.1);
+  transform: scale(1.03);
+}
+
 /* Search Box */
 .search-input-box {
   display: flex;

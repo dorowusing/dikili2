@@ -6,8 +6,8 @@
     "location": "Kecamatan Pulubala / Desa Batulayar, Gorontalo",
     "edition_scope": "Bab IV.C Halaman 27-92 (Halaman PDF 31-95) — Naskah D Komprehensif Lengkap Tanpa Diringkas (Unabridged)",
     "total_sairs": 17,
-    "total_units": 183,
-    "total_jabu": 47,
+    "total_units": 185,
+    "total_jabu": 46,
     "total_gorontalo_units": 15,
     "curation_status": "Verified Philological Edition, 100% Unabridged Naskah D, Zero OCR Noise"
   },
@@ -2398,7 +2398,7 @@
     {
       "sair_number": 17,
       "sair_letter": "q",
-      "sair_title": "Sair Ketujuh Belas",
+      "sair_title": "Sair Ketujuh Belas & Doa Khatam Maulid",
       "doc_pages": [
         88,
         92
@@ -2407,8 +2407,8 @@
         91,
         95
       ],
-      "theme_summary": "Qasidah Penutup Keagungan Nabi (Habībun Yugārul-Badru), Zikir Sakral Tammatul Maulid, serta Doa Maulid Penutup yang Agung (Khatam Dikili Gorontalo).",
-      "jabu_recorded": 2,
+      "theme_summary": "Qasidah Penutup Keagungan Nabi (Habībun Yugārul-Badru), Zikir Tammatul Maulid, serta DOA KHATAM MAULID DIKILI GORONTALO yang Agung (Qasidah Istighatsah, Munajat Maulid, Tawassul, Ilāhī Tammim, dan Salawat Nurul Mubin).",
+      "jabu_recorded": 1,
       "gorontalo_sections_recorded": 0,
       "units": [
         {
@@ -2426,9 +2426,9 @@
         {
           "unit_order": 2,
           "unit_type": "puisi_sair",
-          "text_arabic": "حَبِيْبٌ يُغَارُ الْبَدْرُ مِنْ حُسْنِ وَجْهِهِ * وَمِنْ نُوْرِهِ شَمْسُ الضُّحَى تَتَبَدَّلُ\nوَالدِّيْنُ أَظْهَرَهُ مُحَمَّدُ * وَالْكُفْرُ أَبْطَلَهُ فَهَدَمَ",
-          "transliteration_latin": "Habībun yugārul-badru min husni wajhihī * wa min nūrihī syamsud-duhā tatabaddalu;\nWad-dīnu aẓharahū Muhammad * wal-kufru abṭalahū fahadam.",
-          "translation_indonesian": "Sang Kekasih yang membuat rembulan cemburu terpana memandang keelokan wajahnya; dan dari pancaran nur cahayanya matahari dhuha berganti kemilau;\nAgama kebenaran telah dimenangkan oleh Muhammad; dan kekufuran telah dihancurleburkan dan diruntuhkannya.",
+          "text_arabic": "حَبِيْبٌ يُغَارُ الْبَدْرُ مِنْ حُسْنِ وَجْهِهِ * وَمِنْ نُوْرِهِ شَمْسُ الضُّحَى تَتَبَدَّلُ\nحَبِيْبٌ تَجَلَّى لِلْقُلُوْبِ مُخَاطِبًا * فَطَابُوْا بِهِ شُكْرًا وَفِيْ حُسْنِهِ تَاهُوْا",
+          "transliteration_latin": "Habībun yugārul-badru min husni wajhihī * wa min nūrihī syamsud-duhā tatabaddalu;\nHabībun tajallā lilqulūbi mukhāṭibā * faṭābū bihī syukran wa fī husnihī tāhū.",
+          "translation_indonesian": "Sang Kekasih yang membuat rembulan cemburu terpana memandang keelokan wajahnya; dan dari pancaran nur cahayanya matahari dhuha berganti kemilau;\nKekasih yang menampakkan diri menyapa lubuk sanubari, maka jiwa-jiwa menjadi tenang penuh syukur dan terpukau larut dalam keindahannya.",
           "unit_id": "sair_17_unit_02",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2438,9 +2438,9 @@
         {
           "unit_order": 3,
           "unit_type": "puisi_sair",
-          "text_arabic": "وَلَهُ عَلَى أَعْلَى الْجِبَالِ مَنَارٌ * تَهْدِيْ بِنُوْرِهِ الْقُلُوْبُ وَتَعْمُرُ",
-          "transliteration_latin": "Wa lahu 'alā a'lāl-jibāli manār * tahdī bi nūrihil-qulūbu wa ta'maru.",
-          "translation_indonesian": "Dan baginya di atas puncak gunung-gunung tertinggi terdapat mercusuar petunjuk; yang memandu kalbu manusia dengan cahayanya hingga makmur sentosa.",
+          "text_arabic": "مَلِيْحٌ حَوَى كُلَّ الْقُلُوْبِ لِحُسْنِهِ * فَرُحْتُ وَرَاحَ الْقَلْبُ مِنْ بَعْضِ أَسْرَاهُ\nرَضِيْتُ بِهِ مَوْلًى عَلَى كُلِّ حَالَةٍ * فَقُلْ لِبَعِيْدِ الدَّارِ دَعْنِيْ وَإِيَّاهُ",
+          "transliteration_latin": "Malīhun hawā kullal-qulūbi lihusnihī * faruhtu wa rāhal-qalbu min ba'ḍi asrāh;\nRaḍītu bihī maulan 'alā kulli hālatin * faqul liba'īdid-dāri da'nī wa iyyāh.",
+          "translation_indonesian": "Sosok rupawan mempesona yang menawan setiap kalbu karena keelokannya; maka aku dan hatiku pasrah menjadi bagian dari tawanan cintanya;\nAku ridha menjadikannya junjungan pelindung dalam setiap keadaan; katakanlah kepada orang yang mencela dari kejauhan: biarkanlah aku dan dia bersatu dalam cinta.",
           "unit_id": "sair_17_unit_03",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2450,9 +2450,9 @@
         {
           "unit_order": 4,
           "unit_type": "puisi_sair",
-          "text_arabic": "الْخَلْقُ كُلُّهُمُ عَبِيْدُ جَمَالِهِ * وَجَمِيْعُهُمْ لِسَنَا مَعَانِيْهِ هُدًى\nبَاهُ النُّبُوَّةِ قَدْ عَلَا فِيْ مَرْتَبٍ * فَاقَتْ عَلَى عَرْشِ الْجَلَالِ سَمَاءَهُ",
-          "transliteration_latin": "Al-khalqu kulluhumu 'abīdu jamālihī * wa jamī'uhum li sanā ma'ānīhi hudā;\nBāhun-nubuwwati qad 'alā fī martabin * fāqat 'alā 'arsyil-jalāli samā'ah.",
-          "translation_indonesian": "Segenap makhluk terpikat takluk oleh keindahan budi pekertinya; dan mereka semua terhantar kepada petunjuk berkat kemilau luhur maknanya;\nKemegahan kenabiannya menjulang tinggi pada kedudukan martabat; yang melampaui tingginya langit menuju 'Arasy Keagungan.",
+          "text_arabic": "فَلَوْلَاهُ مَا طَابَ الْهَوَى لِمُتَيَّمٍ * وَلَا اسْتَعْذَبَ الطَّرْفُ الْمَدَامِعَ لَوْلَاهُ\nصَلَاةٌ وَتَسْلِيْمٌ عَلَى خَيْرِ مُرْسَلٍ * مُحَمَّدٍ الدَّاعِيْ إِلَى سُبُلِ أَهْدَاهُ",
+          "transliteration_latin": "Fa laulāhu mā ṭābal-hawā limutayyam * walā-sta'żabaṭ-ṭarful-madāmi'a laulāh;\nṢalātun wa taslīmun 'alā khairi mursalin * muhammadinid-dā'ī ilā subuli ahdāh.",
+          "translation_indonesian": "Sekiranya bukan karena dia, cinta suci takkan terasa manis bagi orang yang mabuk rindu, dan air mata kerinduan takkan terasa sedap berlinang;\nSalawat dan salam senantiasa tercurah kepada sebaik-baik utusan, Muhammad SAW penyeru ke jalan petunjuk yang paling lurus.",
           "unit_id": "sair_17_unit_04",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2461,10 +2461,10 @@
         },
         {
           "unit_order": 5,
-          "unit_type": "puisi_sair",
-          "text_arabic": "سَلَامٌ عَلَى مَنْ صَافَحَتْهُ الْمَلَائِكَةُ * سَلَامٌ عَلَى مَنْ زَانَهُ اللهُ بِالْكَرَمِ\nسَلَامٌ عَلَى قَبْرِ الْحَبِيْبِ مُحَمَّدٍ * بِطَابَةَ فِيْ أَرْضِ الْمَدِيْنَةِ يُقْصَدُ",
-          "transliteration_latin": "Salāmun 'alā man ṣāfahat-hul-malā'ikah * salāmun 'alā man zānahul-lāhu bil-karam;\nSalāmun 'alā qabril-habībi muhammadin * bi ṭābata fī arḍil-madīnati yuqṣad.",
-          "translation_indonesian": "Salam sejahtera bagi sosok yang para malaikat berbaris menjabat tangannya; Salam sejahtera bagi insan yang dihiasi Allah dengan mahkota kemurahan;\nSalam sejahtera senantiasa tercurah ke makam suci sang kekasih Muhammad SAW di kota Thabah Madinah yang diziarahi segenap umat.",
+          "unit_type": "jabu_refrein",
+          "text_arabic": "ذِكْرُ نَبِيٍّ تَمَّ الْمَوْلِدُ * ذِكْرُ نَبِيٍّ تَمَّ الْمَوْلِدُ * مُحَمَّدٌ رَسُوْلُ اللهِ * مُحَمَّدٌ حَبِيْبُ اللهِ * تَمَّ الْمَوْلِدُ الشَّرِيْفُ بِحَمْدِ اللهِ بِعَوْنِهِ * تَمَّ الْمَوْلِدُ الْعَظِيْمُ آمِيْنَ آمِيْنَ",
+          "transliteration_latin": "Żikru nabiyyi tammal-mauludu; żikru nabiyyi tammal-mauludu; muhammadun rasūlullāh; muhammadun habībullāh; tammal-mauludusy-syarīfu bihamdillāhi bi 'aunihī; tammal-mauludul-'aẓīmu āmīn āmīn. (Jābu Tammatul Maulid)",
+          "translation_indonesian": "Zikir Tammatul Maulid (Khatam Bacaan Sair Dikili): Tamat zikir maulud Nabi; tamat zikir maulud Nabi; Muhammad Rasulullah; Muhammad kekasih Allah; Telah selesailah pembacaan Maulid yang mulia ini dengan segala puji bagi Allah dan berkat pertolongan taufik-Nya; Tamatlah maulud yang agung ini, Āmīn... Āmīn.",
           "unit_id": "sair_17_unit_05",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2473,10 +2473,10 @@
         },
         {
           "unit_order": 6,
-          "unit_type": "puisi_sair",
-          "text_arabic": "فَيَا سَيِّدَ الْكَوْنَيْنِ يَا عَلَمَ الْهُدَى * إِلَيْكَ الِالْتِجَاءُ فِيْ كُلِّ مُهِمَّةٍ\nفَكُنْ لِيْ شَفِيْعًا يَوْمَ لَا يَنْفَعُ الْمَالُ * وَلَا بَنُوْنَ إِلَّا بِقَلْبٍ سَلِيْمٍ",
-          "transliteration_latin": "Fayā sayyidal-kaunaini yā 'alamal-hudā * ilaikal-iltijā'u fī kulli muhimmah;\nFakun lī syafī'an yauma lā yanfa'ul-māl * wa lā banūna illā bi qalbin salīm.",
-          "translation_indonesian": "Wahai junjungan dunia dan akhirat, wahai panji petunjuk; kepadamulah kami memohon syafaat dalam setiap urusan genting;\nJadilah pembela syafaat bagiku di hari ketika tiada lagi berguna harta kekayaan dan anak keturunan melainkan orang yang menghadap Allah dengan hati yang selamat.",
+          "unit_type": "doa_penutup",
+          "text_arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ\nاللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ * يَا رَبِّ صَلِّ عَلَيْهِ وَسَلِّمْ\nفِيْ حُبِّ سَيِّدِنَا مُحَمَّدٍ * نُوْرٌ لِبَدْرِ الْهُدَى مُتَمَّمُ\nقَلْبِيْ يَحِنُّ إِلَى مُحَمَّدٍ * مَا زَالَ مِنْ وَجْدِهِ مُتَيَّمُ\nمَالِيْ حَبِيْبٌ سِوَى مُحَمَّدٍ * خَيْرِ الرَّسُوْلِ النَّبِيِّ الْمُكَرَّمِ\nشَوْقُ الْمُحِبِّ إِلَى مُحَمَّدٍ * أَفْنَاهُ ثُمَّ بِهِ تَـهَيَّمُ",
+          "transliteration_latin": "Bismillāhir-rahmānir-rahīm. (Doa Khatam I — Salawat & Kerinduan Kalbu):\nAllāhumma ṣalli 'alā muhammad; yā rabbi ṣalli 'alaihi wa sallim;\nFī hubbi sayyidinā muhammad; nūrun li badril-hudā mutammam;\nQalbī yahinnu ilā muhammad; māzāla min wujdihī mutayyam;\nMālī habībun siwā muhammad; khairir-rasūlin-nabiyyil-mukarram;\nSyauqul-muhibbi ilā muhammad; afnāhu ṡumma bihī tahayyam.",
+          "translation_indonesian": "Doa Khatam Maulid I (Untaian Salawat & Cinta Kepada Nabi SAW):\nYa Allah limpahkanlah salawat kepada Muhammad; Ya Tuhan curahkanlah salawat dan keselamatan baginya;\nDi dalam mencintai junjungan kami Muhammad, terpancar cahaya petunjuk purnama yang sempurna;\nHatiku senantiasa merintih rindu kepada Muhammad, tiada henti mabuk kepayang dalam kerinduan;\nTiada bagiku kekasih sejati selain Muhammad, sebaik-baik rasul dan nabi yang dimuliakan;\nKerinduan orang yang mencintai Muhammad meleburkan jiwanya dan menjadikannya terpikat seutuhnya.",
           "unit_id": "sair_17_unit_06",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2485,10 +2485,10 @@
         },
         {
           "unit_order": 7,
-          "unit_type": "jabu_refrein",
-          "text_arabic": "ذِكْرُ نَبِيٍّ تَمَّ الْمَوْلِدُ * ذِكْرُ نَبِيٍّ تَمَّ الْمَوْلِدُ * مُحَمَّدٌ رَسُوْلُ اللهِ * مُحَمَّدٌ حَبِيْبُ اللهِ * تَمَّ الْمَوْلِدُ الشَّرِيْفُ بِحَمْدِ اللهِ وَعَوْنِهِ",
-          "transliteration_latin": "Żikru nabiyyin tammal-maulid 2x; Muhammadur-rasūlullāh * Muhammadun habībullāh * tammal-maulidusy-syarīfu bihamdillāhi wa 'aunih. (Jābu Tammatul Maulid)",
-          "translation_indonesian": "Zikir Tammatul Maulid (Khatam Bacaan): Mengingat Nabi telah sempurnalah pembacaan Maulid 2x; Muhammad adalah Rasulullah; Muhammad adalah Kekasih Allah; Telah sempurnalah pembacaan Maulid yang mulia (Dikili) ini dengan memanjatkan puji syukur ke hadirat Allah Ta'ala dan berkat pertolongan taufik-Nya.",
+          "unit_type": "doa_penutup",
+          "text_arabic": "فِي الْحَشْرِ شَافِعُنَا مُحَمَّدُ * مُنْجِي الْخَلَائِقِ مِنْ جَهَنَّمَ\nمِيْلَادُ سَيِّدِنَا مُحَمَّدٍ * أُمُّ الْقُرَى بَلَدٌ مُعَظَّمُ\nأَحْيَا الدُّجَى زَمَنًا مُحَمَّدُ * مَوْلَاهُ سَلَّمَهُ وَكَلَّمَ\nأَدْعُوْكَ أَحْمَدُ يَا مُحَمَّدُ * يَا سَيِّدَ الرُّسُلِ الْمُقَدَّمِ\nاِشْفَعْ إِلَى اللهِ يَا مُحَمَّدُ * يَوْمَ الْقِيَامَةِ لِيْ أُنَعَّمُ\nأَرْجُو الشَّفَاعَةَ مِنْ مُحَمَّدٍ * لَوْ كُنْتُ أَرْتَكِبُ الْمُحَرَّمَ",
+          "transliteration_latin": "Fil-hasyri syāfi'unā muhammad; munjil-khalā'iqi min jahannam;\nMīlādu sayyidinā muhammad; ummul-qurā baladun mu'aẓẓam;\nAhyad-dujā zamanan muhammad; maulāhu sallamahū wa kallam;\nAd'ūka ahmadu yā muhammad; yā sayyidir-rusulil-muqaddam;\nIsyfa' ilal-lāhi yā muhammad; yaumal-qiyāmati lī una''am;\nArjusy-syafā'ata min muhammad; lau kuntu artakibul-muharram.",
+          "translation_indonesian": "Doa Khatam Maulid II (Permohonan Syafaat di Padang Mahsyar):\nDi padang Mahsyar pemberi syafaat kita adalah Muhammad, penyelamat sekalian makhluk dari siksa api neraka Jahannam;\nTempat kelahiran junjungan kita Muhammad adalah Ummul Qura (Makkah), negeri yang diagungkan;\nSepanjang malam kelam Muhammad senantiasa bermunajat menghidupkan ibadah, Tuhannya melimpahkan keselamatan dan berfirman kepadanya;\nAku menyeru kepadamu wahai Ahmad, wahai Muhammad, wahai penghulu para rasul terdahulu;\nMohonkanlah syafaat kepada Allah wahai Muhammad, agar di hari kiamat kelak aku dilimpahi kenikmatan surga;\nAku teramat mengharapkan pertolongan syafaat dari Muhammad, meski diri ini penuh khilaf dan dosa.",
           "unit_id": "sair_17_unit_07",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2498,9 +2498,9 @@
         {
           "unit_order": 8,
           "unit_type": "doa_penutup",
-          "text_arabic": "اللَّهُمَّ إِنَّا نَسْأَلُكَ بِجَاهِ نَبِيِّكَ الْمُصْطَفَى * وَرَسُوْلِكَ الْمُرْتَضَى * أَنْ تُطَهِّرَ قُلُوْبَنَا مِنْ كُلِّ وَصْفٍ يُبَاعِدُنَا عَنْ مُشَاهَدَتِكَ وَمَحَبَّتِكَ * وَأَنْ تُمِيْتَنَا عَلَى السُّنَّةِ وَالْجَمَاعَةِ * وَالشَّوْقِ إِلَى لِقَائِكَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ.",
-          "transliteration_latin": "Allāhumma innā nas'aluka bi jāhi nabiyyikal-musthafā, wa rasūlikal-murtadā, an tuṭahhira qulūbanā min kulli waṣfin yubā'idunā 'an musyāhadatika wa mahabbatika, wa an tumītanā 'alas-sunnati wal-jamā'ah, wasy-syauqi ilā liqā'ika yā żal-jalāli wal-ikrām.",
-          "translation_indonesian": "Doa Maulid Penutup I (Tawassul Keagungan Nabi & Pensucian Hati): Ya Allah, sesungguhnya kami memohon kepada-Mu demi kehormatan Nabi-Mu yang terpilih dan Rasul-Mu yang Engkau ridhai, sucikanlah hati dan sanubari kami dari setiap sifat yang menjauhkan kami dari memandang keagungan-Mu dan mencintai-Mu; Wafatkanlah kami senantiasa di atas sunnah dan jamaah, serta penuhilah kalbu kami dengan kerinduan mendalam bersua dengan-Mu, wahai Pemilik Keagungan dan Kemuliaan.",
+          "text_arabic": "مَنْجًى وَمَلْجَأَنَا مُحَمَّدُ * يَوْمَ الْهَوَانِ بِهِ تَحَشَّمُ\nوَالنُّوْرُ جَاءَ بِهِ مُحَمَّدُ * وَالْحَقُّ بَيَّنَ أَنْ تَكَلَّمَ\nأَعْلَى السَّمَاءِ سَمَا مُحَمَّدُ * جِبْرِيْلُ قَالَ لَهُ تَقَدَّمْ\nوَالْجُنْدُ حِيْنَ غَزَا مُحَمَّدُ * مِنْهُمْ مَلَائِكَةٌ تُسَوَّمُ\nوَالدِّيْنُ أَظْهَرَهُ مُحَمَّدُ * وَالْكُفْرُ أَبْطَلَهُ فَهَدَّمَ\nصَلَّى الْإِلٰهُ عَلَى مُحَمَّدٍ * وَالْآلِ كُلِّهِمِ وَسَلَّمْ",
+          "transliteration_latin": "Manjā wa malja'anā muhammad; yaumal-hawāni bihī tahasysyam;\nWan-nūru jā'a bihī muhammad; wal-haqqu bayyana an takallam;\nA'lās-samā'i samā muhammad; jibrīlu qāla lahū taqaddam;\nWal-jundu hīna gazā muhammad; minhum malā'ikatu tusawwam;\nWad-dīnu aẓharahu muhammad; wal-kufru abṭalahū fahaddam;\nṢallal-ilāhu 'alā muhammad; wal-āli kullihim wa sallam.",
+          "translation_indonesian": "Doa Khatam Maulid III (Ketinggian Mi'raj & Kemenangan Dakwah):\nTempat berlindung dan keselamatan kami adalah Muhammad, di hari kiamat manusia terhindar dari kehinaan berkat kemuliaannya;\nCahaya kebenaran dibawa oleh Muhammad, dan kebenaran hakiki menjadi terang benderang ketika ia bertutur kata;\nMenembus tingginya langit menjulang derajat Muhammad saat Mi'raj, Malaikat Jibril berkata kepadanya: 'Majulah ke hadirat Ilahi!';\nBala tentara pembela saat Muhammad berjuang dikuatkan oleh barisan malaikat pilihan yang diturunkan Allah;\nAgama Islam dimenangkan oleh Muhammad, dan kekufuran dipadamkannya hingga runtuh binasa;\nSemoga Tuhan Yang Maha Esa mencurahkan salawat atas Muhammad, serta atas segenap keluarga dan sahabatnya.",
           "unit_id": "sair_17_unit_08",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2510,9 +2510,9 @@
         {
           "unit_order": 9,
           "unit_type": "doa_penutup",
-          "text_arabic": "اللَّهُمَّ اجْعَلْنَا مِنْ خِيَارِ أُمَّتِهِ * وَاسْتُرْنَا بِذَيْلِ حُرْمَتِهِ * وَاحْشُرْنَا غَدًا فِيْ زُمْرَتِهِ * وَاسْتَعْمِلْ أَلْسِنَتَنَا فِيْ مَدْحِهِ وَنُصْرَتِهِ * وَأَحْيِنَا مُسْتَمْسِكِيْنَ بِطَاعَتِهِ وَمَحَبَّتِهِ * وَأَمِتْنَا عَلَى سُنَّتِهِ وَجَمَاعَتِهِ.",
-          "transliteration_latin": "Allāhummaj-'alnā min khiyāri ummatih, wasturnā biżaili hurmatih, wahsyurnā gadan fī zumratih, wasta'mil alsinatanā fī madhihī wa nuṣratih, wa ahyinā mustamsikīna biṭā'atihī wa mahabbatih, wa amitnā 'alā sunnatihī wa jamā'atih.",
-          "translation_indonesian": "Doa Maulid Penutup II (Doa Syafaat & Hajat Umat): Ya Allah, jadikanlah kami tergolong sebaik-baik umatnya, tutupilah kelemahan dan aib kami di bawah jubah kemuliaannya, himpunlah kami kelak di hari kiamat dalam barisan golongannya, jadikanlah lisan kami senantiasa melantunkan pujian baginya dan membela agamanya, hidupkanlah kami tetap berpegang teguh pada ketaatan dan kecintaan kepadanya, dan matikanlah kami teguh di atas sunnahnya.",
+          "text_arabic": "صَدَقَ اللهُ الْعَلِيُّ الْعَظِيْمُ وَبَلَّغَ رَسُوْلُهُ الْحَبِيْبُ الْكَرِيْمُ وَنَحْنُ عَلَى ذٰلِكَ مِنَ الشَّاهِدِيْنَ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ.\nاللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي الْأَوَّلِيْنَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي الْآخِرِيْنَ، وَصَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي النَّبِيِّيْنَ، وَصَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي كُلِّ وَقْتٍ وَحِيْنٍ، وَصَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي الْمَلَإِ الْأَعْلَى إِلَى يَوْمِ الدِّيْنِ.\nالسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِيْنَ.\nاللَّهُمَّ بَلِّغْ رُوْحَ سَيِّدِنَا مُحَمَّدٍ مِنَّا تَحِيَّةً وَسَلَامًا، وَاجْزِهِ عَنَّا أَفْضَلَ مَا جَزَيْتَ نَبِيًّا عَنْ أُمَّتِهِ، وَآتِهِ الْوَسِيْلَةَ وَالْفَضِيْلَةَ وَالشَّرَفَ وَالدَّرَجَةَ الْعَالِيَةَ الرَّفِيْعَةَ، وَابْعَثْهُ الْمَقَامَ الْمَحْمُوْدَ الَّذِيْ وَعَدْتَهُ يَا أَرْحَمَ الرَّاحِمِيْنَ.",
+          "transliteration_latin": "Doa Khatam IV — Pembacaan Doa Maulid Agung (Tasbih & Salawat Muta'aqibat):\nṢadaqallāhul-'aliyyul-'aẓīm wa ballaga rasūluhul-habībul-karīm wa nahnu 'alā żālika minasy-syāhidīn wal-hamdu lillāhi rabbil-'ālamīn.\nAllāhumma ṣalli wa sallim 'alā sayyidinā muhammadin fil-awwalīn, wa ṣalli 'alā sayyidinā muhammadin fil-ākhirīn, wa ṣalli wa sallim 'alā sayyidinā muhammadin fin-nabiyyīn, wa ṣalli wa sallim 'alā sayyidinā muhammadin fī kulli waqtin wa hīn, wa ṣalli wa sallim 'alā sayyidinā muhammadin fil-mala'il-a'lā ilā yaumid-dīn.\nAssalāmu 'alaika ayyuhan-nabiyyu wa rahmatullāhi wa barakātuh, assalāmu 'alainā wa 'alā 'ibādillāhiṣ-ṣālihīn.\nAllāhumma ballig rūha sayyidinā muhammadin minnā tahiyyatan wa salāmā, wajzihī 'annā afḍala mā jazaita nabiyyan 'an ummatih, wa ātihil-wasīlata wal-faḍīlata wasy-syarafa wad-darajatal-'āliyatar-rafī'ah, wab'aṡhul-maqāmal-mahmūdal-lażī wa'adtahū yā arhamar-rāhimīn.",
+          "translation_indonesian": "Doa Khatam Maulid IV (Tasbih, Salam & Doa Wasilah Kemuliaan):\nMaha Benar Allah Yang Maha Tinggi lagi Maha Agung, dan telah menyampaikan Rasul-Nya yang tercinta lagi mulia, dan kami atas hal itu termasuk orang-orang yang bersaksi, dan segala puji bagi Allah Tuhan semesta alam.\nYa Allah, limpahkanlah salawat dan keselamatan kepada junjungan kami Nabi Muhammad di kalangan orang-orang terdahulu, curahkanlah salawat kepada junjungan kami Muhammad di kalangan orang-orang terkemudian, curahkanlah salawat dan salam kepada junjungan kami Muhammad di kalangan para nabi, curahkanlah salawat dan salam kepada junjungan kami Muhammad pada setiap waktu dan kesempatan, serta curahkanlah salawat dan salam kepada junjungan kami Muhammad di haribaan para malaikat tertinggi hingga Hari Pembalasan.\nKeselamatan, rahmat Allah, dan keberkahan-Nya semoga tercurah kepadamu wahai baginda Nabi; Keselamatan semoga tercurah atas kami dan hamba-hamba Allah yang saleh.\nYa Allah, sampaikanlah salam penghormatan dan kesejahteraan dari kami kepada ruh junjungan kami Nabi Muhammad, balaslah jasa kebaikannya bagi kami dengan sebaik-baik balasan yang pernah Engkau anugerahkan kepada seorang nabi bagi umatnya, karuniakanlah kepadanya al-Wasilah, keutamaan, kemuliaan, serta derajat yang maha tinggi, dan bangkitkanlah ia pada Maqam Terpuji yang telah Engkau janjikan kepadanya, wahai Tuhan Yang Maha Pengasih dari segala yang mengasihi.",
           "unit_id": "sair_17_unit_09",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2522,9 +2522,9 @@
         {
           "unit_order": 10,
           "unit_type": "doa_penutup",
-          "text_arabic": "اللَّهُمَّ أَدْخِلْنَا مَعَهُ الْجَنَّةَ فَإِنَّهُ أَوَّلُ مَنْ يَدْخُلُهَا * وَأَنْزِلْنَا مَعَهُ فِيْ قُصُوْرِهَا فَإِنَّهُ أَوَّلُ مَنْ يَنْزِلُهَا * وَارْحَمْنَا بِهِ يَوْمَ يَسْتَشْفِعُ بِهِ الْخَلَائِقُ فَتَرْحَمُهَا * اللَّهُمَّ إِنَّا قَدْ حَضَرْنَا قِرَاءَةَ مَوْلِدِ نَبِيِّكَ الْكَرِيْمِ * فَأَفِضْ عَلَيْنَا بِبَرَكَتِهِ لِبَاسَ الْعِزِّ وَالتَّكْرِيْمِ * وَأَسْكِنَّا بِجِوَارِهِ فِيْ دَارِ النَّعِيْمِ * وَنَعِّمْنَا بِمُشَاهَدَةِ وَجْهِكَ الْكَرِيْمِ فِي الْفِرْدَوْسِ الْأَعْلَى بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِيْنَ * وَصَلَّى اللهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ * وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ.",
-          "transliteration_latin": "Allāhumma adkhilnā ma'ahul-jannata fa innahū awwalu man yadkhuluhā, wa anzilnā ma'ahū fī quṣūrihā fa innahū awwalu man yanziluhā, warhamnā bihī yauma yastasyfi'u bihil-khalā'iqu fatarhamuhā. Allāhumma innā qad haḍarnā qirā'ata maulidi nabiyyikal-karīm, fa afiḍ 'alainā bi barakatihī libāsal-'izzi wat-takrīm, wa askinnā bijiwārihī fī dārin-na'īm, wa na''imnā bi musyāhadati wajhikal-karīm fil-firdausil-a'lā bi rahmatika yā arhamar-rāhimīn. Wa ṣallal-lāhu 'alā sayyidinā muhammadin wa 'alā ālihī wa ṣahbihī wa sallam, wal-hamdu lillāhi rabbil-'ālamīn.",
-          "translation_indonesian": "Doa Maulid Penutup III (Puncak Munajat & Doa Khatam yang Agung): Ya Allah, masukkanlah kami bersama baginda Nabi ke dalam surga, karena dialah orang pertama yang memasukinya; tempatkanlah kami bersamanya di istana-istananya, karena dialah orang pertama yang menempatinya; dan rahmatilah kami berkat syafaatnya di hari ketika segenap makhluk memohon syafaat kepadanya lalu Engkau merahmati mereka. Ya Allah, sungguh kami telah berhimpun khusyuk menghadiri pembacaan maulid Nabi-Mu yang mulia (Naskah Dikili Gorontalo ini), maka limpahkanlah kepada kami berkat keberkahannya pakaian kemuliaan dan kehormatan agung, tempatkanlah kami berdampingan dengannya di dalam surga kenikmatan, dan karuniakanlah kenikmatan memandang Wajah-Mu Yang Maha Mulia di surga Firdaus yang tertinggi dengan rahmat kasih-Mu wahai Tuhan Yang Maha Pengasih dari segala yang mengasihi. Semoga salawat dan keselamatan senantiasa tercurah kepada junjungan kami Nabi Muhammad SAW, segenap keluarga, dan sahabatnya. Dan segala puji bagi Allah, Tuhan semesta alam.",
+          "text_arabic": "اللَّهُمَّ اجْعَلْنَا وَإِيَّاهُمْ مِمَّنْ يَسْتَوْجِبُ شَفَاعَتَهُ وَيَرْتَجِيْ بِرَحْمَتِهِ رَبَّ الْعَالَمِيْنَ.\nاللَّهُمَّ بِحُرْمَةِ هٰذَا النَّبِيِّ الْكَرِيْمِ وَآلِهِ وَأَصْحَابِهِ السَّالِكِيْنَ لِنَهْجِهِ الْقَوِيْمِ، اجْعَلْنَا مِنْ خِيَارِ أُمَّتِهِ، وَاسْتُرْنَا بِذَيْلِ حُرْمَتِهِ، وَاحْشُرْنَا غَدًا فِيْ زُمْرَتِهِ، وَاسْتَعْمِلْ أَلْسِنَتَنَا فِيْ مَدْحِهِ وَنُصْرَتِهِ، وَأَحْيِنَا مُسْتَمْسِكِيْنَ بِطَاعَتِهِ وَمَحَبَّتِهِ، وَأَمِتْنَا عَلَى سُنَّتِهِ وَجَمَاعَتِهِ.\nاللَّهُمَّ أَدْخِلْنَا مَعَهُ الْجَنَّةَ فَإِنَّهُ أَوَّلُ مَنْ يَدْخُلُهَا، وَأَنْزِلْنَا مَعَهُ فِيْ قُصُوْرِهَا فَإِنَّهُ أَوَّلُ مَنْ يَنْزِلُهَا، وَارْحَمْنَا بِهِ يَوْمَ يَسْتَشْفِعُ بِهِ الْخَلَائِقُ فَتَرْحَمُهَا.\nاللَّهُمَّ إِنَّا قَدْ حَضَرْنَا قِرَاءَةَ مَوْلِدِ نَبِيِّكَ الْكَرِيْمِ، فَأَفِضْ عَلَيْنَا بِبَرَكَتِهِ لِبَاسَ الْعِزِّ وَالتَّكْرِيْمِ، وَأَسْكِنَّا بِجِوَارِهِ فِيْ دَارِ النَّعِيْمِ، وَنَعِّمْنَا فِي الْجَنَّةِ بِالنَّعِيْمِ الْمُقِيْمِ.",
+          "transliteration_latin": "Doa Khatam V — Puncak Munajat Maulid Dikili (Memohon Surga & Berkah Bacaan Dikili):\nAllāhummaj-'alnā wa iyyāhum mimman yastaujibu syafā'atahū wa yartajī bi rahmatihī rabbal-'ālamīn.\nAllāhumma bihurmati hāżan-nabiyyil-karīm wa ālihī wa aṣhābihis-sālikīna linahjihil-qawīm, ij'alnā min khiyāri ummatih, wasturnā biżaili hurmatih, wahsyurnā gadan fī zumratih, wasta'mil alsinatanā fī madhihī wa nuṣratih, wa ahyinā mustamsikīna biṭā'atihī wa mahabbatih, wa amitnā 'alā sunnatihī wa jamā'atih.\nAllāhumma adkhilnā ma'ahul-jannata fa innahū awwalu man yadkhuluhā, wa anzilnā ma'ahū fī quṣūrihā fa innahū awwalu man yanziluhā, warhamnā bihī yauma yastasyfi'u bihil-khalā'iqu fatarhamuhā.\nAllāhumma innā qad haḍarnā qirā'ata maulidi nabiyyikal-karīm, fa afiḍ 'alainā bi barakatihī libāsal-'izzi wat-takrīm, wa askinnā bijiwārihī fī dārin-na'īm, wa na''imnā fil-jannati bin-na'īmil-muqīm.",
+          "translation_indonesian": "Doa Khatam Maulid V (Permohonan Golongan Umat Pilihan & Berkah Majelis Dikili):\nYa Allah, jadikanlah kami dan mereka tergolong orang-orang yang berhak memperoleh pertolongan syafaatnya dan mendambakan rahmat-Mu, wahai Tuhan semesta alam.\nYa Allah, demi kehormatan Nabi yang mulia ini serta keluarga dan para sahabatnya yang meniti jalannya yang lurus: Jadikanlah kami tergolong sebaik-baik umatnya, tutupilah segala cela aib kami di bawah naungan jubah kehormatannya, himpunlah kami kelak di hari kiamat dalam barisan golongannya, jadikanlah lisan kami senantiasa basah melantunkan pujian baginya dan menolong agamanya, hidupkanlah kami senantiasa berpegang teguh pada ketaatan dan kecintaan kepadanya, serta wafatkanlah kami teguh di atas jalan sunnah dan jamaahnya.\nYa Allah, masukkanlah kami bersama baginda Nabi ke dalam surga, karena dialah orang pertama yang memasukinya; tempatkanlah kami bersamanya di istana-istana surga, karena dialah insan pertama yang menempatinya; dan rahmatilah kami berkat syafaatnya di hari ketika segenap makhluk memohon syafaat kepadanya lalu Engkau merahmati mereka.\nYa Allah, sesungguhnya kami telah khusyuk berhimpun menghadiri pembacaan maulid Nabi-Mu yang mulia (Naskah Dikili Gorontalo ini), maka limpahkanlah ruah kepada kami berkat keberkahannya busana kemuliaan dan kehormatan agung, tempatkanlah kami berdampingan dengannya di dalam negeri surga kenikmatan, dan anugerahilah kami kenikmatan abadi yang tiada pernah sirna.",
           "unit_id": "sair_17_unit_10",
           "sair_number": 17,
           "sair_letter": "q",
@@ -2533,18 +2533,42 @@
         },
         {
           "unit_order": 11,
-          "unit_type": "jabu_refrein",
-          "text_arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ * وَسَلَامٌ عَلَى الْمُرْسَلِيْنَ * وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ",
-          "transliteration_latin": "Subhāna rabbika rabbil-'izzati 'ammā yaṣifūn * wa salāmun 'alal-mursalīn * wal-hamdu lillāhi rabbil-'ālamīn. (Jābu Khatam Dikili)",
-          "translation_indonesian": "Maha Suci Tuhanmu, Tuhan Yang Memiliki Keperkasaan dari apa yang mereka sifatkan; Dan salam sejahtera semoga tercurah kepada para rasul utusan; Dan segala puji bagi Allah Tuhan semesta alam.",
+          "unit_type": "doa_penutup",
+          "text_arabic": "اللَّهُمَّ إِنَّا نَسْأَلُكَ بِجَاهِ هٰذَا النَّبِيِّ الْمُصْطَفَى وَآلِهِ أَهْلِ الصِّدْقِ وَالْوَفَا، كُنْ لَنَا مُعِيْنًا وَمُسْعِفًا، وَبَوِّئْنَا مِنَ الْجَنَّةِ غُرَفًا، وَارْزُقْنَا بِجَاهِهِ عِنْدَكَ قَبُوْلًا وَعِزًّا وَشَرَفًا.\nاللَّهُمَّ إِنَّا نَتَوَسَّلُ إِلَيْكَ بِنَبِيِّكَ الْمُخْتَارِ وَآلِهِ الْأَطْهَارِ وَأَصْحَابِهِ الْأَخْيَارِ، كَفِّرْ عَنَّا الذُّنُوْبَ وَالْأَوْزَارَ، يَا اللهُ يَا اللهُ يَا اللهُ، وَاحْرُسْنَا مِنْ جَمِيْعِ الْمَخَاوِفِ وَالْأَخْطَارِ، وَاجْمَعْ بَيْنَنَا وَبَيْنَهُ فِيْ دَارِ الْقَرَارِ، وَتَقَبَّلْ مِنَّا مَا قَدَّمْنَا مِنْ يَسِيْرِ أَعْمَالِنَا فِي الْإِعْلَانِ وَالْإِسْرَارِ، وَارْحَمْنَا بِرَحْمَتِكَ وَاغْفِرْ لَنَا إِنَّكَ أَنْتَ الْعَفُوُّ الْغَفَّارُ يَا غَفَّارُ.",
+          "transliteration_latin": "Doa Khatam VI — Tawassul Agung & Doa Perlindungan Bahaya:\nAllāhumma innā nas'aluka bi jāhi hāżan-nabiyyil-muṣṭafā wa ālihī ahlis-ṣidqi wal-wafā, kun lanā mu'īnan wa mus'ifā, wa bawwi'nā minal-jannati gurafā, warzuqnā bi jāhihī 'indaka qabūlan wa 'izzan wa syarafā.\nAllāhumma innā natawassalu ilaika bi nabiyyikal-mukhtār wa ālihil-aṭhār wa aṣhābihil-akhyār, kaffir 'annaz-zunūba wal-auzār, yā Allāh yā Allāh yā Allāh, wahrusnā min jamī'il-makhāwifi wal-akhṭār, wajma' bainanā wa bainahū fī dāril-qarār, wa taqabbal minnā mā qaddamnā min yasīri a'mālinā fil-i'lāni wal-isrār, warhamnā bi rahmatika wagfir lanā innaka antal-'afuwwul-gaffāru yā gaffār.",
+          "translation_indonesian": "Doa Khatam Maulid VI (Tawassul Keberkahan & Pengampunan Dosa):\nYa Allah, sesungguhnya kami memohon kepada-Mu demi kehormatan Nabi-Mu yang terpilih dan keluarganya orang-orang yang memiliki kejujuran dan kesetiaan: Jadilah Penolong dan Pelindung bagi kami, tempatkanlah kami di kamar-kamar mahligai surga yang tinggi, dan rezekikanlah kepada kami berkat kedudukannya di sisi-Mu penerimaan amal, kemuliaan, dan keluhuran.\nYa Allah, kami bertawassul kepada-Mu dengan perantara Nabi-Mu Sang Terpilih, keluarganya yang suci, dan sahabat-sahabatnya yang utama: Hapuskanlah dari kami segala dosa dan beban kesalahan, Ya Allah Ya Allah Ya Allah! Lindungilah dan peliharalah kami dari segala mara bahaya, ketakutan, dan ancaman; Himpunlah kami bersamanya di negeri keabadian yang tenteram; Terimalah dari kami sekecil apa pun amal kebajikan yang kami persembahkan baik secara terang-terangan maupun tersembunyi; Rahmatilah kami dengan keluasan kasih sayang-Mu dan ampunilah kami, sungguh Engkau Maha Pemaaf lagi Maha Pengampun, wahai Dzat Yang Maha Mengampuni.",
           "unit_id": "sair_17_unit_11",
+          "sair_number": 17,
+          "sair_letter": "q",
+          "doc_page": 88,
+          "pdf_page": 91
+        },
+        {
+          "unit_order": 12,
+          "unit_type": "doa_penutup",
+          "text_arabic": "إِلٰهِيْ تَمِّمِ النَّعْمَاءَ عَلَيْنَا * وَوَفِّقْنَا لِشُكْرِكَ مَا بَقِيْنَا\nأَذِقْنَا بَرْدَ عَفْوِكَ وَالْعَوَافِيْ * وَهَوِّنْ كُلَّ مَطْلُوْبٍ عَلَيْنَا\nفَإِنَّا لَا نُعَوِّلُ فِيْ مُهِمٍّ * أَلَمَّ بِنَا وَلَا مَا قَدْ لَقِيْنَا\nعَلَى أَحَدٍ وَلَا سَبَبٍ وَلٰكِنْ * إِذَا ضَاقَتْ وَكُنْتَ لَهَا قَمِيْنَا\nوَصَلِّ عَلَى رَسُوْلِكَ كُلَّ حِيْنٍ * مُحَمَّدٍ النَّبِيِّ الزَّاكِي الْأَمِيْنِ\nكَذَا آلٍ وَأَصْحَابٍ كِرَامٍ * وَمَنْ وَالَاهُمُ وَالتَّابِعِيْنَ\nيَا إِلٰهِيْ بِحَقِّهِ دَمِّرِ الْبَغْيَ وَالْفَسَادَ * يَا إِلٰهِيْ بِحَقِّهِ جُدْ بِلُطْفِكَ يَا جَوَادُ\nيَا إِلٰهِيْ بِحَقِّهِ آتِنَا السُّؤْلَ وَالْمُرَادَ",
+          "transliteration_latin": "Doa Khatam VII — Kasidah Munajat Ilāhī Tammimin-Na'mā (Doa Perlindungan Negeri & Hajat):\nIlāhī tammimin-na'mā'a 'alainā * wa waffiqnā li syukrika mā baqīnā;\nAżiqnā barda 'afwika wal-'awāfī * wa hawwin kulla maṭlūbin 'alainā;\nFa innā lā nu'awwilu fī muhimmin * alamma binā walā mā qad laqīnā;\n'Alā ahadin walā sababin walākin * iżā ḍāqat wa kunta lahā qamīnā;\nWa ṣalli 'alā rasūlika kulla hīnin * muhammadinin-nabiyyiz-zākil-amīn;\nKażā ālin wa aṣhābin kirāmin * wa man wālāhumu wat-tābi'īn;\nYā ilāhī bihaqqihī dammiril-bagya wal-fasād * yā ilāhī bihaqqihī jud bi luṭfika yā jawād;\nYā ilāhī bihaqqihī ātinās-su'la wal-marād.",
+          "translation_indonesian": "Doa Khatam Maulid VII (Munajat Sempurnanya Nikmat & Kedamaian Bangsa):\nWahai Tuhanku, sempurnakanlah kenikmatan-Mu atas kami; dan bimbinglah kami untuk senantiasa bersyukur kepada-Mu sepanjang hayat kami;\nKaruniakanlah kepada kami sejuknya ampunan-Mu dan afiat keselamatan; serta mudahkanlah bagi kami segala hajat tujuan yang mulia;\nKarena sesungguhnya kami tiada pernah bersandar dalam urusan penting yang menimpa kami;\nKepada siapa pun jua melainkan kepada-Mu semata tatkala dada terasa sempit, dan Engkaulah Yang Maha Kuasa melapangkannya;\nDan curahkanlah salawat kepada Rasul-Mu setiap saat, Muhammad Nabi yang suci bersih lagi terpercaya;\nDemikian pula atas keluarganya dan para sahabatnya yang mulia, serta para pengikut setia mereka hingga akhir zaman;\nWahai Tuhanku demi hak kemuliaannya: Hancurkanlah kezaliman dan kerusakan di muka bumi;\nWahai Tuhanku demi hak kemuliaannya: Limpahkanlah kelembutan kasih-Mu wahai Dzat Yang Maha Pemurah;\nWahai Tuhanku demi hak kemuliaannya: Kabulkanlah segala permohonan doa dan cita-cita kami!",
+          "unit_id": "sair_17_unit_12",
+          "sair_number": 17,
+          "sair_letter": "q",
+          "doc_page": 88,
+          "pdf_page": 91
+        },
+        {
+          "unit_order": 13,
+          "unit_type": "doa_penutup",
+          "text_arabic": "حَصَلَ الْقَصْدُ وَالْمُرَادُ * وَصَفَا الْوَقْتُ وَالْوِدَادُ * وَبِرُؤْيَا مُحَمَّدٍ * فَرِحَتْ أَنْفُسُ الْعِبَادِ\nعَنْ غَرَامِيْ وَلَوْعَتِيْ * لَا تُحَرِّكْنِيْ فِي الْمَلَامِ * ذٰلِكَ دِيْنِيْ وَمِلَّتِيْ * ذَاكَ لِيْ غَايَةُ الْمَرَامِ\nوَصَلَّى اللهُ عَلَى خَيْرِ خَلْقِهِ مُحَمَّدٍ وَآلِهِ وَأَصْحَابِهِ أَجْمَعِيْنَ وَسَلَّمَ تَسْلِيْمًا كَثِيْرًا\nوَاخْتِمْ لَنَا مِنْكَ بِخَيْرٍ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِيْنَ\nصَلَّى اللهُ رَبُّنَا عَلَى النُّوْرِ الْمُبِيْنِ * أَحْمَدَ الْمُصْطَفَى سَيِّدِ الْمُرْسَلِيْنَ * وَعَلَى آلِهِ وَصَحْبِهِ أَجْمَعِيْنَ (3×)\nسُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ * وَسَلَامٌ عَلَى الْمُرْسَلِيْنَ * وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ. آمِيْنَ.",
+          "transliteration_latin": "Doa Khatam VIII — Kasidah Penutup Haṣalal Qasdu, Salawat Nūril Mubīn & Khatam Qur'an:\nHaṣalal-qaṣdu wal-murād * waṣafal-waqtu wal-widād * wa bi ru'yā muhammadin * farihat anfusul-'ibād;\n'An garāmī wa lau'atī * lā tuharriknī fil-malām * żālika dīnī wa millatī * żāka lī gāyatul-marām;\nWa ṣallallāhu 'alā khairi khalqihī muhammadin wa ālihī wa aṣhābihī ajma'īn wa sallama taslīman kaṡīrā;\nWa-khtim lanā minka bi khairin bi rahmatika yā arhamar-rāhimīn;\nṢallallāhu rabbunā 'alan-nūril-mubīn * ahmadal-muṣṭafā sayyidil-mursalīn * wa 'alā ālihī wa ṣahbihī ajma'īn (3x);\nSubhāna rabbika rabbil-'izzati 'ammā yaṣifūn * wa salāmun 'alal-mursalīn * wal-hamdu lillāhi rabbil-'ālamīn. Āmīn.",
+          "translation_indonesian": "Doa Khatam Maulid VIII (Puncak Penutup Khatam Dikili Gorontalo):\nTelah tercapai maksud dan cita-cita, saat yang hening dan kasih sayang telah berpadu, dan dengan memandang keelokan Muhammad bergembiralah seluruh jiwa para hamba;\nDari gelora cinta dan kerinduanku janganlah engkau mencelaku, karena itulah agamaku dan keyakinanku, serta itulah puncak segala harapanku;\nSemoga Allah senantiasa mencurahkan salawat dan salam yang melimpah ruah kepada sebaik-baik makhluk-Nya, Muhammad SAW, serta keluarga dan sahabatnya sekalian;\nDan tutuplah umur dan amal kami dengan kesudahan yang baik (husnul khatimah), dengan rahmat kasih-Mu wahai Tuhan Yang Maha Pengasih dari segala yang mengasihi;\nSemoga Allah Tuhan kami senantiasa mencurahkan salawat kepada Sang Cahaya yang Nyata Benderang: Ahmad Al-Musthafa penghulu para rasul utusan, serta kepada segenap keluarga dan sahabatnya sekalian (dibaca 3 kali);\nMaha Suci Tuhanmu, Tuhan Yang Memiliki Keperkasaan dan Kemuliaan dari apa yang mereka sifatkan; Dan salam kesejahteraan semoga senantiasa tercurah kepada para rasul; Dan segala puji bagi Allah Tuhan Penguasa semesta alam. Āmīn Ya Rabbal 'Alamin.",
+          "unit_id": "sair_17_unit_13",
           "sair_number": 17,
           "sair_letter": "q",
           "doc_page": 88,
           "pdf_page": 91
         }
       ],
-      "total_units": 11
+      "total_units": 13
     }
   ]
 }

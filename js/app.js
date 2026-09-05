@@ -223,6 +223,44 @@
       
       elements.sairSheetItems.appendChild(item);
     });
+
+    // Special item for Doa Khatam Maulid
+    const doaItem = document.createElement('div');
+    doaItem.className = 'sair-sheet-item special-doa-item';
+    doaItem.innerHTML = `
+      <div class="sair-sheet-left">
+        <div class="sair-sheet-num">🤲</div>
+        <div class="sair-sheet-info">
+          <div class="sair-sheet-name" style="font-weight: 700; color: #9333ea;">Doa Khatam Maulid</div>
+          <div class="sair-sheet-snippet">Penutup Dikili (Bab IV.C) • 8 Rangkaian Doa &amp; Istighatsah</div>
+        </div>
+      </div>
+      <span class="special-doa-badge-pill">Sair 17</span>
+    `;
+    doaItem.addEventListener('click', () => {
+      closeAllModals();
+      jumpToDoaKhatam();
+    });
+    elements.sairSheetItems.appendChild(doaItem);
+  }
+
+  // Jump directly to Doa Khatam in Sair 17
+  function jumpToDoaKhatam() {
+    switchSair(17);
+    setTimeout(() => {
+      const doaEl = document.getElementById('unit-sair_17_unit_06');
+      if (doaEl) {
+        doaEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        doaEl.style.transition = 'box-shadow 0.4s ease, border-color 0.4s ease';
+        doaEl.style.boxShadow = '0 0 0 3px #9333ea, 0 8px 24px rgba(147, 51, 234, 0.25)';
+        doaEl.style.borderColor = '#9333ea';
+        setTimeout(() => {
+          doaEl.style.boxShadow = '';
+          doaEl.style.borderColor = '';
+        }, 3000);
+      }
+    }, 200);
+    showToast('Membuka Doa Khatam Maulid (Penutup Dikili)');
   }
 
   // Switch Sair
@@ -262,6 +300,12 @@
     // Pager buttons state
     elements.prevBtn.disabled = (num === 1);
     elements.nextBtn.disabled = (num === 17);
+
+    // Doa Khatam Banner visibility on Sair 17
+    const doaBanner = document.getElementById('doaJumpBanner');
+    if (doaBanner) {
+      doaBanner.style.display = (num === 17) ? 'flex' : 'none';
+    }
 
     // Render Unit Cards
     renderUnitCards(sair.units);
@@ -560,6 +604,19 @@
     }
     if (elements.nextBtn) {
       elements.nextBtn.addEventListener('click', () => switchSair(state.currentSair + 1));
+    }
+
+    // Doa Khatam quick jump button in hero card
+    const btnJumpDoa = document.getElementById('btnJumpDoa');
+    if (btnJumpDoa) {
+      btnJumpDoa.addEventListener('click', (e) => {
+        e.stopPropagation();
+        jumpToDoaKhatam();
+      });
+    }
+    const doaBanner = document.getElementById('doaJumpBanner');
+    if (doaBanner) {
+      doaBanner.addEventListener('click', jumpToDoaKhatam);
     }
 
     // Display Toggle Chips
