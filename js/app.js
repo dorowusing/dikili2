@@ -680,6 +680,18 @@
     const navInfo = document.getElementById('navInfo');
     if (navInfo) navInfo.addEventListener('click', () => openModal(elements.infoSheet));
 
+    // Research Tabs Switching
+    document.querySelectorAll('.research-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-tab');
+        document.querySelectorAll('.research-tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.research-tab-pane').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        const targetPane = document.getElementById(targetTab);
+        if (targetPane) targetPane.classList.add('active');
+      });
+    });
+
     // Brand click (opens Sair list)
     const navBrand = document.getElementById('navBrand');
     if (navBrand) navBrand.addEventListener('click', () => openModal(elements.sairListSheet));

@@ -144,8 +144,8 @@
         <span>Penanda</span>
       </button>
       <button class="nav-item" id="navInfo">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-        <span>Naskah D</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+        <span>Kajian Riset</span>
       </button>
     </nav>
 
@@ -199,39 +199,363 @@
       </div>
     </div>
 
-    <!-- Modal 4: About Manuscript Info Sheet -->
+    <!-- Modal 4: Research & Local Wisdom Sheet (Kajian Riset Naskah Dikili) -->
     <div class="modal-overlay" id="infoSheet">
-      <div class="bottom-sheet">
+      <div class="bottom-sheet research-sheet">
         <div class="sheet-grabber"></div>
         <div class="sheet-header">
-          <span class="sheet-title">Tentang Naskah D Dikili Gorontalo</span>
+          <div class="research-header-title">
+            <span class="sheet-title">Kajian Riset &amp; Kearifan Lokal Dikili</span>
+            <div class="sheet-subtitle">Riset Filologi: Dr. Ayuba Pantu &amp; Dr. H. Muh. Arif (IAIN Sultan Amai)</div>
+          </div>
           <button class="btn-icon btn-close-sheet">✕</button>
         </div>
-        <div class="sheet-content">
-          <div class="info-section">
-            <p><strong>Dikili</strong> adalah tradisi pembacaan naskah sastra keagamaan klasik masyarakat Gorontalo dalam rangka perayaan Maulid Nabi Muhammad SAW yang diwariskan turun-temurun sejak ratusan tahun lalu.</p>
-            
-            <table class="info-table">
-              <tr><td>Kode Naskah</td><td><strong>Naskah D</strong></td></tr>
-              <tr><td>Pemilik / Koleksi</td><td>Mustapa Taha</td></tr>
-              <tr><td>Lokasi Asal</td><td>Desa Bakti Pulubala & Batu Layar, Gorontalo</td></tr>
-              <tr><td>Tebal Naskah</td><td>188 Halaman (185 Hlm Disunting)</td></tr>
-              <tr><td>Ukuran Fisik</td><td>20 x 14 cm</td></tr>
-              <tr><td>Kolofon Awal</td><td>Disalin 1424 H / 2003 M (Bakti Pulubala)</td></tr>
-              <tr><td>Kolofon Akhir</td><td>Disalin 1419 H / 1999 M (Batu Layar)</td></tr>
-              <tr><td>Aksara</td><td>Arab Hijaiyah, Arab Pegon (Gorontalo), Latin</td></tr>
-              <tr><td>Bahasa</td><td>Arab Klasik, Gorontalo Klasik, Melayu Kuno</td></tr>
-              <tr><td>Penyunting</td><td>Dr. Ayuba Pantu & Dr. H. Muh. Arif (IAIN Sultan Amai)</td></tr>
-            </table>
 
-            <div style="margin-top: 14px; background: var(--bg-secondary); padding: 12px; border-radius: 10px; font-size: 12.5px;">
-              <strong>Ciri Khas Naskah D:</strong>
-              <ul style="padding-left: 18px; margin-top: 6px; display: flex; flex-direction: column; gap: 4px;">
-                <li>Memiliki variasi <strong>Jābu</strong> (refrein zikir sakral lokal) paling lengkap di antara naskah lainnya.</li>
-                <li>Memuat prosa narasi sejarah kelahiran Nabi dan Halimah as-Sa'diyyah dalam <strong>Bahasa Gorontalo asli</strong> beraksara Arab Pegon.</li>
-                <li>Termasuk <strong>Doa Khatam Maulid lengkap</strong> (Bab IV.C, 8 rangkaian doa &amp; istighatsah) pada penutup Sair 17.</li>
-                <li>Menjadi naskah landasan resmi dalam studi filologi Maulid Dikili Gorontalo.</li>
+        <!-- Research Tabs Navigation -->
+        <div class="research-tabs-nav" id="researchTabsNav">
+          <button class="research-tab-btn active" data-tab="tab-naskah">📜 Naskah A–D</button>
+          <button class="research-tab-btn" data-tab="tab-jabu">✨ Kearifan Jābu</button>
+          <button class="research-tab-btn" data-tab="tab-pegon">🖋️ Pegon Gorontalo</button>
+          <button class="research-tab-btn" data-tab="tab-glosarium">📚 13 Catatan Kaki</button>
+          <button class="research-tab-btn" data-tab="tab-amanat">🕌 Amanat &amp; Ulama</button>
+        </div>
+
+        <div class="sheet-content research-sheet-content">
+          <!-- TAB 1: Naskah A-D & Alasan Pemilihan Naskah D -->
+          <div class="research-tab-pane active" id="tab-naskah">
+            <div class="research-card">
+              <div class="research-card-title">📖 Tentang Tradisi Dikili Gorontalo</div>
+              <p><strong>Dikili</strong> adalah tradisi pembacaan naskah sastra keagamaan klasik masyarakat Gorontalo dalam perayaan Maulid Nabi Muhammad SAW yang diwariskan turun-temurun sejak abad ke-16/17 M. Naskah dilantunkan secara berirama (tagoni) semalam suntuk di masjid-masjid dan rumah ibadah adat.</p>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">🏛️ Perbandingan 4 Naskah Lapangan (Bab IV.A)</div>
+              <p>Dalam penelitian lapangan di tiga kecamatan (Pulubala, Bone Bolango, dan Kota Selatan), peneliti menemukan empat naskah salinan:</p>
+              
+              <div class="manuscript-item">
+                <div class="manuscript-header">
+                  <span class="manuscript-tag tag-ms-a">Naskah A</span>
+                  <strong>Milik Hartati Mopangga (Kec. Kota Barat)</strong>
+                </div>
+                <p>Tebal 117 halaman, ukuran 21 x 16 cm. Kolofon tertanggal 15 Juni 1986 oleh penyalin A.D. Laya di Huangobotu. Menggunakan tinta hitam dan merah (merah untuk basmalah, salawat, dan jābu). Terdapat banyak pemenggalan kata dan kesalahan penyalinan ayat Al-Qur'an (seperti Surah Al-Fath: 2-3 dan At-Taubah: 128-129).</p>
+              </div>
+
+              <div class="manuscript-item">
+                <div class="manuscript-header">
+                  <span class="manuscript-tag tag-ms-b">Naskah B</span>
+                  <strong>Milik Hamu Ahmad (Kel. Biawu, Kota Selatan)</strong>
+                </div>
+                <p>Tebal 121 halaman, ukuran 15 x 10 cm, 9 baris/halaman. Tidak memiliki kolofon sehingga tahun penulisan tidak diketahui pasti. Khusus terjemahan, hanya berbahasa Gorontalo (tidak ada bahasa Indonesia), beraksara Arab Pegon.</p>
+              </div>
+
+              <div class="manuscript-item">
+                <div class="manuscript-header">
+                  <span class="manuscript-tag tag-ms-c">Naskah C</span>
+                  <strong>Milik KH. Naha Akadji (Desa Bakti, Pulubala)</strong>
+                </div>
+                <p>Tebal 119 halaman, ukuran 19 x 13 cm. Kolofon tertanggal 7 Rabiul Awwal 1415 H / 16 Agustus 1994. <em>Ciri istimewa:</em> Memiliki iluminasi kaligrafi unik berupa lafaz Basmalah yang dibentuk menyerupai seekor <strong>itik</strong>, dan lafaz Salawat menyerupai gambar <strong>pesawat terbang</strong>.</p>
+              </div>
+
+              <div class="manuscript-item featured-ms">
+                <div class="manuscript-header">
+                  <span class="manuscript-tag tag-ms-d">Naskah D (Landasan Aplikasi)</span>
+                  <strong>Milik Mustapa Taha (Bakti Pulubala &amp; Batu Layar)</strong>
+                </div>
+                <p>Tebal 188 halaman (185 hlm teks disunting), ukuran 20 x 14 cm. Memiliki dua kolofon: kolofon awal beraksara Latin (disalin 29 Maret 2003 / 1424 H di Desa Bakti) dan kolofon akhir beraksara Pegon (disalin 1999 M / 1419 H di Batu Layar).</p>
+                <table class="info-table" style="margin-top: 8px;">
+                  <tr><td>Pemilik / Koleksi</td><td>Mustapa Taha</td></tr>
+                  <tr><td>Lokasi Asal</td><td>Desa Bakti Pulubala &amp; Batu Layar</td></tr>
+                  <tr><td>Aksara &amp; Bahasa</td><td>Arab Hijaiyah, Arab Pegon (Gorontalo), Latin</td></tr>
+                  <tr><td>Penyunting Riset</td><td>Dr. Ayuba Pantu &amp; Dr. H. Muh. Arif (IAIN)</td></tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">⚖️ 4 Alasan Pemilihan Naskah D (Bab IV.B)</div>
+              <p>Peneliti filologi menetapkan Naskah D sebagai landasan suntingan teks (<em>textus receptus</em>) karena:</p>
+              <ol class="research-list">
+                <li><strong>Tulisannya paling jelas dan rapi</strong> sehingga mudah dibaca dan diverifikasi.</li>
+                <li><strong>Keadaan fisik naskah masih baik dan utuh</strong> tanpa halaman yang hilang.</li>
+                <li><strong>Sesuai dengan sumber dan fakta keagamaan</strong> dengan tingkat kesalahan ortografi paling minim.</li>
+                <li><strong>Isinya paling lengkap</strong>, memiliki variasi refrein Jābu paling kaya serta narasi sejarah Hikayat dalam bahasa Gorontalo asli beraksara Pegon.</li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- TAB 2: Kearifan Lokal Jābu -->
+          <div class="research-tab-pane" id="tab-jabu">
+            <div class="research-card">
+              <div class="research-card-title">✨ Hakikat &amp; Filosofi Jābu (Bab IV.D.1)</div>
+              <p>Kata <strong>Jābu</strong> secara etimologis berasal dari bahasa Arab <em>jawāb</em> (jawaban/respons). Dalam tradisi Dikili, Jābu adalah untaian bait respons, puji-pujian sakral, permohonan tobat, dan syahadat ciptaan ulama leluhur Gorontalo yang diselipkan pada setiap jeda bait syair Arab.</p>
+              <p>Jābu dibacakan bersahut-sahutan oleh kelompok jamaah untuk menghidupkan suasana zikir komunal yang khusyuk dan megah.</p>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">📊 Statistik Sebaran 62 Jābu di 17 Sair</div>
+              <p>Penelitian mencatat terdapat total <strong>62 refrein Jābu</strong> dalam tradisi naskah Dikili:</p>
+              <ul class="research-list">
+                <li><strong>Sair Terbanyak Jābu:</strong> Sair 14 dengan <strong>14 Jābu</strong>.</li>
+                <li><strong>Sair Paling Sedikit Jābu:</strong> Sair 5 dan Sair 6 masing-masing hanya memiliki <strong>1 Jābu</strong>.</li>
+                <li>Sair lainnya rata-rata diselingi antara 2 hingga 6 Jābu berulang.</li>
               </ul>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">🌟 Antologi 10 Jābu Utama Pilihan Riset</div>
+              <div class="jabu-specimens-list">
+                <div class="jabu-box">
+                  <div class="jabu-ar">مُحَمَّدٌ بَشَرٌ لَا كَالْبَشَرِ * بَلْ هُوَ كَالْيَاقُوْتِ بَيْنَ الْحَجَرِ</div>
+                  <div class="jabu-la">Muhammadun basyarun lā kal-basyar * bal huwa kal-yāqūti bainal-hajar</div>
+                  <div class="jabu-id">"Muhammad adalah manusia, namun tidak seperti manusia biasa; bahkan beliau laksana permata yaqut (delima merah berkilau) di antara bebatuan cadas."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">أَلْفَ صَلُّوْا عَلَى النَّبِيِّ خَاتَمِ الرُّسُلِ الْكِرَامِ</div>
+                  <div class="jabu-la">Alfa ṣallū 'alan-nabiyyi khātimir-rusulil-kirām</div>
+                  <div class="jabu-id">"Beribu-ribu salawat tercurah atas Nabi penutup para rasul yang mulia."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">إِلٰهِيْ يَا إِلٰهِيْ ٢× إِلٰهِيْ تَوْبَةً قَبْلَ الْمَمَاتِ</div>
+                  <div class="jabu-la">Ilāhī yā ilāhī (2x) ilāhī taubatan qablal-mamāt</div>
+                  <div class="jabu-id">"Tuhanku, wahai Tuhanku (2x), anugerahkanlah tobat sebelum datang ajal kematian."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">اللهُ اللهُ اللهُ رَبُّنَا * اللهُ اللهُ اللهُ حَسْبُنَا * الصَّلَوَاتُ عَلَى النَّبِيِّ وَسَلِّمْ عَلَى خَيْرِ الرَّسُوْلِ</div>
+                  <div class="jabu-la">Allāh Allāh Allāh rabbunā, Allāh Allāh Allāh hasbunā; aṣ-ṣalawātu 'alan-nabiyyi wa sallim 'alā khairir-rasūl</div>
+                  <div class="jabu-id">"Allah Allah Tuhan kami, Allah yang mencukupkan kami; salawat dan salam bagi Nabi sebaik-baik Rasul."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">إِمَامُ الْهَاشِمِيُّ نَبِيٌّ قُرَيْشِيٌّ مُحَمَّدٌ عَرَبِيٌّ رَسُوْلُ الثَّقَلَيْنِ</div>
+                  <div class="jabu-la">Īmāmul-hāsyīmiyyu, nabiyyun quraisyiyyun muhammadun 'arabiyyun rasūluṡ-ṡaqalain</div>
+                  <div class="jabu-id">"Pemimpin bani Hasyim, nabi kaum Quraisy, Muhammad bangsa Arab, rasul bagi bangsa jin dan manusia."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">اللهُ اللهُ نُوْرُ اللهِ * اللهُ اللهُ نُوْرُ اللهِ * نُوْرُ مُحَمَّدٍ صَلَّى اللهُ ٢× لَا إِلٰهَ إِلَّا اللهُ</div>
+                  <div class="jabu-la">Allāh Allāh nūrul-lāh (2x); Nūru Muhammadin ṣallallāh (2x) lā ilāha illallāh</div>
+                  <div class="jabu-id">"Allah cahaya Allah; Nur Muhammad semoga Allah curahkan salawat; tiada Tuhan selain Allah."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">يَا سَيِّدِيْ يَا رَسُوْلَ اللهِ خُذْ بِيَدِيْ ٢× مَا لَيْسَ لِيْ تَوَكَّلْتُ إِلَّا الْأَحَدِ</div>
+                  <div class="jabu-la">Yā sayyidī yā rasūlallāh khuż biyadī (2x) mā laisa lī tawakkaltu illal-ahad</div>
+                  <div class="jabu-id">"Wahai junjunganku, wahai Rasulullah bimbinglah tanganku, tiada sandaran tawakalku kecuali kepada Yang Maha Tunggal."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">يَا حَيُّ يَا قَيُّوْمُ أَحْيِ الْقُلُوْبَ تُحْيَا وَأَصْلِحْ لَنَا الْأَعْمَالَ فِي الدِّيْنِ وَالدُّنْيَا</div>
+                  <div class="jabu-la">Yā Hayyu yā Qayyūm ahyil-qulūba tuhyā wa aṣlih lanal-a'māla fid-dīni wad-dunyā</div>
+                  <div class="jabu-id">"Wahai Yang Maha Hidup dan Berdiri Sendiri, hidupkanlah jiwa kami dan bimbinglah amal perbuatan kami dalam agama dan dunia."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">نُوْرُ اللهِ نُوْرُ مُحَمَّدٍ أَوَّلُ الزَّمَانِ يَا رَسُوْلَ اللهِ يَا حَبِيْبَ اللهِ آخِرُ الزَّمَانِ</div>
+                  <div class="jabu-la">Nūrul-lāhi nūru muhammad awwaluz-zamān, yā rasūlallāh yā habīballāh ākhiriz-zamān</div>
+                  <div class="jabu-id">"Cahaya Allah Nur Muhammad di awal zaman; wahai Rasulullah kekasih Allah hingga akhir zaman."</div>
+                </div>
+
+                <div class="jabu-box">
+                  <div class="jabu-ar">اللهُ اللهُ اللهُ رَبُّنَا * اللهُ اللهُ اللهُ حَسْبُنَا</div>
+                  <div class="jabu-la">Allāhu Allāhu Allāhu rabbunā * Allāhu Allāhu Allāhu hasbunā</div>
+                  <div class="jabu-id">"Pujian zikir bersahutan; peneliti mencatat variasi sisipan kata 'yā' dan 'hay' di naskah berfungsi layaknya titi nada melodi dalam lantunan tagoni Dikili."</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: Aksara Arab Pegon Gorontalo -->
+          <div class="research-tab-pane" id="tab-pegon">
+            <div class="research-card">
+              <div class="research-card-title">🖋️ Inovasi Grafologi Ulama Gorontalo (Bab IV.D.2)</div>
+              <p>Naskah Dikili ditulis menggunakan <strong>Aksara Arab Pegon (Arab Melayu)</strong> yang telah disesuaikan secara genius oleh ulama Gorontalo untuk melambangkan fonem-fonem lokal yang tidak terdapat dalam abjad Arab baku.</p>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">🔤 Konsonan Nusantara Tambahan</div>
+              <div class="pegon-grid">
+                <div class="pegon-cell">
+                  <div class="pegon-char">ڠ</div>
+                  <div class="pegon-name">Ghain titik tiga</div>
+                  <div class="pegon-val">Fonem /ng/</div>
+                </div>
+                <div class="pegon-cell">
+                  <div class="pegon-char">ڽ</div>
+                  <div class="pegon-name">Nun titik tiga</div>
+                  <div class="pegon-val">Fonem /ny/</div>
+                </div>
+                <div class="pegon-cell">
+                  <div class="pegon-char">چ</div>
+                  <div class="pegon-name">Jim titik tiga</div>
+                  <div class="pegon-val">Fonem /c/</div>
+                </div>
+                <div class="pegon-cell">
+                  <div class="pegon-char">ݢ</div>
+                  <div class="pegon-name">Kaf bertitik atas</div>
+                  <div class="pegon-val">Fonem /g/</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">💡 Penemuan Simbol Syakal Khusus Vokal Gorontalo (/o/ dan /e/)</div>
+              <p>Dalam ortografi Arab standar hanya terdapat tiga tanda vokal: <em>fathah (/a/)</em>, <em>kasrah (/i/)</em>, dan <em>dhammah (/u/)</em>. Namun bahasa Gorontalo memiliki vokal lokal <strong>/o/</strong> dan <strong>/e/</strong>.</p>
+              <p>Untuk mengatasi keterbatasan ini, ulama Gorontalo menciptakan <strong>tanda syakal khusus berbentuk hamzah terbalik atau angka 2 miring</strong>:</p>
+
+              <div class="vowel-demo-box">
+                <div class="vowel-item">
+                  <div class="vowel-symbol">ـݶ</div>
+                  <div class="vowel-title">Syakal Vokal /o/</div>
+                  <div class="vowel-desc">Diletakkan di <strong>BAGIAN ATAS</strong> huruf konsonan untuk melambangkan bunyi vokal <strong>/o/</strong> (seperti pada kata <em>olo</em>, <em>lonto</em>).</div>
+                </div>
+                <div class="vowel-item">
+                  <div class="vowel-symbol">ـݷ</div>
+                  <div class="vowel-title">Syakal Vokal /e/</div>
+                  <div class="vowel-desc">Diletakkan di <strong>BAGIAN BAWAH</strong> huruf konsonan untuk melambangkan bunyi vokal <strong>/e/</strong> (seperti pada kata <em>Eya</em>, <em>delomo</em>).</div>
+                </div>
+              </div>
+              <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">*Temuan ini membuktikan bahwa ulama Gorontalo abad lampau memiliki kesadaran linguistik dan ketelitian fonologis yang sangat tinggi.</p>
+            </div>
+          </div>
+
+          <!-- TAB 4: 13 Catatan Kaki Filologis / Glosarium -->
+          <div class="research-tab-pane" id="tab-glosarium">
+            <div class="research-card">
+              <div class="research-card-title">📚 Glosarium 13 Catatan Kaki Filologi (Bab IV.C)</div>
+              <p>Kompilasi catatan kaki ilmiah peneliti yang mengupas makna kata arkaik, toponim geografis, dan varian teks naskah Dikili:</p>
+            </div>
+
+            <div class="glossary-items-list">
+              <div class="glossary-card">
+                <div class="glossary-num">1</div>
+                <div class="glossary-body">
+                  <strong>Hitungan 17 Sair Dikili (Sair 1, Hlm. 28)</strong>
+                  <p>Penetapan jumlah 17 Sair ini didasarkan pada penuturan orang-orang tua yang tergolong ahli Dikili yang telah mentradisikan pembacaan 17 bab tematik Maulid.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">2</div>
+                <div class="glossary-body">
+                  <strong>Kata <em>Maraam</em> (Sair 1, Hlm. 30)</strong>
+                  <p><em>Maraam</em> (anak panah) adalah senjata perang populer masa silam. Dalam sair ini dimaknai secara kiasan sebagai sasaran/target dakwah Nabi SAW yang melumpuhkan musuh-musuhnya.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">3</div>
+                <div class="glossary-body">
+                  <strong>Varian <em>al-'Uṣāt</em> vs <em>al-Usāt</em> (Sair 1, Hlm. 30)</strong>
+                  <p>Di naskah tertulis <em>al-'uṣāt</em> (jamak dari <em>al-'āṣī</em> = orang yang durhaka). Di naskah lain tertulis <em>al-usāt</em> (jamak dari <em>āsiyyu</em> = tabib/pengobat duka kalbu).</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">4</div>
+                <div class="glossary-body">
+                  <strong>Makna Ganda <em>Bahru</em> &amp; <em>az-Zakhā'ir</em> (Sair 1, Hlm. 32)</strong>
+                  <p><em>Bahru</em> selain lautan luas juga bermakna kuda pacu tangkas; mengiaskan kepribadian Nabi yang cerdas dan memudahkan orang lain, laksana samudra yang menyimpan simpanan kebajikan.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">5</div>
+                <div class="glossary-body">
+                  <strong>Kata <em>al-Gamāmah</em> (Sair 1, Hlm. 32)</strong>
+                  <p><em>Al-gamāmah</em> bermakna awan mendung pembawa keteduhan dari terik matahari safar padang pasir.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">6</div>
+                <div class="glossary-body">
+                  <strong>Toponim <em>Tihāmah</em> (Sair 1, Hlm. 33)</strong>
+                  <p><em>Tihāmah</em> adalah kawasan pesisir dataran rendah di sebelah barat dan utara Mekkah.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">7</div>
+                <div class="glossary-body">
+                  <strong>Gelar <em>Batūl</em> (Sair 1, Hlm. 33)</strong>
+                  <p><em>Batūl</em> adalah gelar kehormatan khusus bagi Sayyidah Fatimah az-Zahra putri tercinta Rasulullah SAW yang mencerminkan kesucian dan ketekunan ibadah.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">8</div>
+                <div class="glossary-body">
+                  <strong>Toponim <em>Muhashshab</em> (Sair 4, Hlm. 48)</strong>
+                  <p><em>Muhashshab</em> adalah lembah peristirahatan di antara Mina dan Mekkah tempat jamaah haji singgah setelah melempar jumrah.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">9</div>
+                <div class="glossary-body">
+                  <strong>Kawasan Suci <em>al-Haramain</em> (Sair 4, Hlm. 49)</strong>
+                  <p><em>Al-Haramain</em> merujuk pada dua kota suci utama umat Islam: Makkah al-Mukarramah dan Madinah al-Munawwarah.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">10</div>
+                <div class="glossary-body">
+                  <strong>Varian Kisah Halimah (Sair 6, Hlm. 53)</strong>
+                  <p>Catatan variasi terjemahan pada kalimat <em>mā ra'at-hu wa mā qīla lahā wa mā umirat</em> (apa yang disaksikan Halimah, dikatakan orang kepadanya, dan yang diperintahkan baginya).</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">11</div>
+                <div class="glossary-body">
+                  <strong>Kitab Maulid <em>Al-Barzanji</em> (Sair 9, Hlm. 61)</strong>
+                  <p>Karya sastra sirah monumental <em>'Iqd al-Jawāhir</em> karangan Sayyid Ja'far al-Barzanji (lahir di Madinah 1690 M, wafat 1766 M). Dikili Gorontalo berakar kuat dari tradisi pembacaan maulid ini.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">12</div>
+                <div class="glossary-body">
+                  <strong>Metafora <em>Durratil-Yatīmah</em> (Sair 11, Hlm. 70)</strong>
+                  <p><em>Durratil-yatīmah</em> bermakna mutiara tunggal tiada tara yang tak ternilai harganya, mengiaskan keagungan derajat Rasulullah SAW.</p>
+                </div>
+              </div>
+
+              <div class="glossary-card">
+                <div class="glossary-num">13</div>
+                <div class="glossary-body">
+                  <strong>Istilah <em>Al-Ṭhāf</em> (Sair 11, Hlm. 70)</strong>
+                  <p><em>Al-ṭhāf</em> bermakna sesuatu yang mengapung di permukaan air, mengiaskan bahtera keselamatan di tengah gelombang kehidupan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 5: Amanat, Tradisi & Jaringan Ulama Gorontalo -->
+          <div class="research-tab-pane" id="tab-amanat">
+            <div class="research-card">
+              <div class="research-card-title">🕌 Amanat &amp; Nilai Kandungan Dikili (Bab IV.E)</div>
+              <ul class="research-list">
+                <li><strong>Keteladanan Akhlak Mulia:</strong> Meneguhkan keyakinan kaum muslimin atas keluhuran pribadi Nabi Muhammad SAW sebagai <em>uswatun hasanah</em>.</li>
+                <li><strong>Legitimasi Sejarah Tradisi Maulid:</strong> Menepis anggapan bahwa maulid adalah amalan baru di Gorontalo; naskah membuktikan perayaan Maulid telah mengakar secara institusional dan kultural sejak ratusan tahun silam.</li>
+                <li><strong>Kecakapan Intelektual Leluhur:</strong> Menjadi bukti bahwa para ulama dan tokoh masyarakat Gorontalo terdahulu memiliki kemahiran baca-tulis Arab yang tinggi serta mampu menyadur ajaran agama ke dalam bahasa ibu.</li>
+              </ul>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">🌐 Temuan Eksistensi Jaringan Ulama Gorontalo</div>
+              <p>Riset menyimpulkan bahwa naskah Dikili membuktikan adanya <strong>Jaringan Ulama (<em>Scholarly Network</em>)</strong> di Gorontalo yang terhubung aktif dengan simpul-simpul transmisi Islam di Nusantara (seperti Sulawesi Selatan, Banjar, Giri-Cirebon) dan Timur Tengah (Haramain).</p>
+              <p>Melalui jejaring ini, karya sastra Maulid seperti Barzanji dan Diba' diadaptasi secara kreatif menjadi tradisi Dikili yang khas Gorontalo.</p>
+            </div>
+
+            <div class="research-card">
+              <div class="research-card-title">📌 Kesimpulan &amp; Saran Peneliti (Bab V)</div>
+              <p><strong>Kesimpulan:</strong> Dikili adalah warisan kebudayaan Islam klasik Gorontalo yang memadukan sastra Arab, kearifan zikir lokal (Jābu), dan penulisan Arab Pegon berkarakter khas.</p>
+              <p><strong>Saran:</strong> Mengingat naskah salinan tulisan tangan yang tersisa di masyarakat kian rentan rusak, dibutuhkan digitalisasi dan revitalisasi agar nilai-nilai luhur Maulid Dikili dapat diwarisi oleh generasi penerus.</p>
             </div>
           </div>
         </div>
