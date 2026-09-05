@@ -274,6 +274,14 @@
         tagClass = 'tag-gorontalo';
         tagLabel = '🌿 Teks Bahasa Gorontalo (Pegon)';
         cardClass = 'is-gorontalo';
+      } else if (u.unit_type === 'prosa_hikayat_indonesia') {
+        tagClass = 'tag-hikayat';
+        tagLabel = '📖 Narasi Hikayat & Sirah';
+        cardClass = 'is-hikayat';
+      } else if (u.unit_type === 'doa_penutup') {
+        tagClass = 'tag-doa';
+        tagLabel = '🤲 Doa Maulid Penutup';
+        cardClass = 'is-doa';
       } else if (u.unit_type === 'catatan_filologis') {
         tagClass = 'tag-puisi';
         tagLabel = 'Catatan Filologis';

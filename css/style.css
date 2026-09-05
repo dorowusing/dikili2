@@ -480,14 +480,16 @@ body {
   border: 1px solid var(--accent-green);
 }
 
-.tag-quran, .tag-hadits {
+.tag-quran, .tag-hadits, .tag-hikayat {
   background: #E0F2FE;
   color: #0369A1;
+  border: 1px solid #BAE6FD;
 }
 
 .tag-doa {
   background: #F3E8FF;
   color: #7E22CE;
+  border: 1px solid #E9D5FF;
 }
 
 .unit-actions {
@@ -525,6 +527,16 @@ body {
 .unit-card.is-gorontalo {
   border-left: 4px solid var(--accent-green);
   background: linear-gradient(180deg, var(--accent-green-light) 0%, var(--bg-card) 50px);
+}
+
+.unit-card.is-hikayat {
+  border-left: 4px solid #0284c7;
+  background: linear-gradient(180deg, rgba(2, 132, 199, 0.08) 0%, var(--bg-card) 50px);
+}
+
+.unit-card.is-doa {
+  border-left: 4px solid #9333ea;
+  background: linear-gradient(180deg, rgba(147, 51, 234, 0.08) 0%, var(--bg-card) 50px);
 }
 
 /* Text Sections */
