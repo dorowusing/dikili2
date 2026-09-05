@@ -115,8 +115,21 @@
       } catch (err) {
         console.error('Failed to load Dikili data:', err);
         showToast('Gagal memuat data naskah. Pastikan berkas data.json tersedia.');
+        dismissSplashScreen();
       }
     }
+  }
+
+  // Dismiss Splash Screen with smooth fade
+  function dismissSplashScreen() {
+    const splash = document.getElementById('splashScreen');
+    if (!splash) return;
+    setTimeout(() => {
+      splash.classList.add('fade-out');
+      setTimeout(() => {
+        splash.style.display = 'none';
+      }, 650);
+    }, 1200);
   }
 
   function onDataLoaded() {
@@ -129,6 +142,7 @@
     buildSairDrawerList();
     renderSair(state.currentSair);
     setupEventListeners();
+    dismissSplashScreen();
   }
 
   // Apply Theme
